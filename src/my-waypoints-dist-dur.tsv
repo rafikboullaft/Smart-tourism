@@ -1,0 +1,254 @@
+waypoint1	waypoint2	distance_m	duration_s
+Beni-Mellal	Casablanca	222593	8908
+Meknes	Casablanca	238107	9499
+Marrakesh	Casablanca	241636	9601
+Larache	Casablanca	258596	9505
+Fes	Casablanca	293990	11092
+Mohammedia	Casablanca	26759	1676
+Midelt	Casablanca	395571	18433
+El Hoceima	Casablanca	598301	27609
+Tangier	Casablanca	338005	12667
+Rabat	Casablanca	86942	3771
+Agadir	Casablanca	465525	17148
+Essaouira	Casablanca	370642	15408
+Tetouan	Casablanca	365183	15280
+Sidi Slimane	Casablanca	203591	8689
+Chefchaouen	Casablanca	338385	17178
+Kenitra	Casablanca	140854	5716
+Ifran	Casablanca	294624	12363
+Nador	Casablanca	597650	22409
+Taroudant	Casablanca	483955	18084
+Settat	Casablanca	82452	4050
+Guelmim	Casablanca	645680	27054
+Khouribga	Casablanca	124447	5528
+Beni-Mellal	Meknes	253639	14679
+Beni-Mellal	Marrakesh	191325	10990
+Beni-Mellal	Larache	387619	16538
+Fes	Beni-Mellal	289182	16427
+Beni-Mellal	Mohammedia	244001	9431
+Beni-Mellal	Midelt	220926	12782
+El Hoceima	Beni-Mellal	593493	32944
+Beni-Mellal	Tangier	467029	19700
+Beni-Mellal	Rabat	229055	11632
+Agadir	Beni-Mellal	449940	19817
+Beni-Mellal	Essaouira	382630	18616
+Beni-Mellal	Tetouan	494207	22312
+Beni-Mellal	Sidi Slimane	297726	15476
+Beni-Mellal	Chefchaouen	467408	24210
+Beni-Mellal	Kenitra	269877	12749
+Beni-Mellal	Ifran	223307	14523
+Beni-Mellal	Nador	592842	27745
+Beni-Mellal	Taroudant	468370	20753
+Beni-Mellal	Settat	226104	8738
+Beni-Mellal	Guelmim	630095	29723
+Beni-Mellal	Khouribga	85731	4981
+Marrakesh	Meknes	476099	18105
+Larache	Meknes	263172	10287
+Fes	Meknes	64517	3216
+Mohammedia	Meknes	215964	8642
+Midelt	Meknes	188773	11634
+El Hoceima	Meknes	368828	19733
+Tangier	Meknes	342581	13449
+Meknes	Rabat	151171	6442
+Agadir	Meknes	699988	25653
+Essaouira	Meknes	609321	23861
+Meknes	Tetouan	369760	16061
+Sidi Slimane	Meknes	68392	4729
+Chefchaouen	Meknes	194025	12557
+Kenitra	Meknes	144729	6439
+Meknes	Ifran	63259	4248
+Nador	Meknes	368177	14533
+Meknes	Taroudant	718418	26588
+Settat	Meknes	316915	12555
+Guelmim	Meknes	880143	35559
+Meknes	Khouribga	234446	12748
+Larache	Marrakesh	494845	17845
+Fes	Marrakesh	530239	19432
+Marrakesh	Mohammedia	263008	10016
+Midelt	Marrakesh	412624	22993
+El Hoceima	Marrakesh	834550	35949
+Tangier	Marrakesh	574254	21007
+Marrakesh	Rabat	323191	12112
+Agadir	Marrakesh	258340	10954
+Essaouira	Marrakesh	191030	9752
+Marrakesh	Tetouan	601433	23620
+Sidi Slimane	Marrakesh	439840	17029
+Chefchaouen	Marrakesh	574634	25518
+Kenitra	Marrakesh	377103	14057
+Marrakesh	Ifran	530873	20703
+Nador	Marrakesh	833899	30749
+Marrakesh	Taroudant	276771	11889
+Settat	Marrakesh	168711	6578
+Guelmim	Marrakesh	438495	20860
+Marrakesh	Khouribga	286248	10744
+Fes	Larache	319723	11952
+Larache	Mohammedia	235737	8587
+Larache	Midelt	445871	20609
+El Hoceima	Larache	342812	19579
+Tangier	Larache	88297	4137
+Larache	Rabat	170943	6387
+Agadir	Larache	719760	25598
+Essaouira	Larache	629093	23806
+Larache	Tetouan	115476	6749
+Larache	Sidi Slimane	129113	6898
+Larache	Chefchaouen	164618	9913
+Larache	Kenitra	126930	4893
+Larache	Ifran	320357	13223
+Nador	Larache	623383	23270
+Larache	Taroudant	738191	26534
+Larache	Settat	336687	12500
+Guelmim	Larache	899915	35504
+Larache	Khouribga	311794	14127
+Fes	Mohammedia	271852	10126
+Fes	Midelt	212085	11724
+Fes	El Hoceima	253643	17150
+Fes	Tangier	398469	14933
+Fes	Rabat	207058	7926
+Fes	Agadir	755875	27137
+Fes	Essaouira	665208	25345
+Fes	Tetouan	271939	17104
+Fes	Sidi Slimane	113016	6919
+Fes	Chefchaouen	211569	12930
+Fes	Kenitra	200617	7923
+Fes	Ifran	64674	4587
+Fes	Nador	314102	13003
+Fes	Taroudant	774306	28073
+Fes	Settat	372802	14039
+Fes	Guelmim	936030	37043
+Fes	Khouribga	290334	14233
+Midelt	Mohammedia	396729	18876
+El Hoceima	Mohammedia	574891	26736
+Tangier	Mohammedia	314595	11795
+Mohammedia	Rabat	63532	2899
+Agadir	Mohammedia	489882	17859
+Essaouira	Mohammedia	399215	16067
+Mohammedia	Tetouan	341774	14407
+Sidi Slimane	Mohammedia	180181	7816
+Chefchaouen	Mohammedia	314975	16305
+Kenitra	Mohammedia	117444	4844
+Mohammedia	Ifran	271214	11490
+Nador	Mohammedia	574240	21536
+Mohammedia	Taroudant	508312	18794
+Settat	Mohammedia	106809	4761
+Guelmim	Mohammedia	670037	27765
+Mohammedia	Khouribga	148804	6239
+El Hoceima	Midelt	501598	27042
+Tangier	Midelt	523644	23322
+Midelt	Rabat	332233	16315
+Agadir	Midelt	782288	31199
+Essaouira	Midelt	714978	29998
+Midelt	Tetouan	550822	25935
+Midelt	Sidi Slimane	256569	15181
+Midelt	Chefchaouen	379004	23302
+Midelt	Kenitra	325792	16312
+Midelt	Ifran	135809	7798
+Nador	Midelt	456398	21691
+Midelt	Taroudant	800719	32135
+Midelt	Settat	399216	18101
+Guelmim	Midelt	962443	41105
+Midelt	Khouribga	287697	14386
+El Hoceima	Tangier	291281	17441
+El Hoceima	Rabat	558695	23623
+El Hoceima	Agadir	1107512	42834
+El Hoceima	Essaouira	1016845	41042
+El Hoceima	Tetouan	234157	14060
+El Hoceima	Sidi Slimane	339441	22059
+El Hoceima	Chefchaouen	236994	14485
+El Hoceima	Kenitra	461194	23504
+El Hoceima	Ifran	402710	19486
+El Hoceima	Nador	126393	7451
+El Hoceima	Taroudant	1125942	43770
+El Hoceima	Settat	724439	29736
+El Hoceima	Guelmim	1287667	52740
+El Hoceima	Khouribga	641971	29930
+Tangier	Rabat	249881	9495
+Agadir	Tangier	798697	28706
+Tangier	Essaouira	708031	26914
+Tangier	Tetouan	63229	4565
+Tangier	Sidi Slimane	208050	10006
+Tangier	Chefchaouen	112371	7728
+Tangier	Kenitra	205867	8001
+Tangier	Ifran	399294	16331
+Tangier	Nador	401377	23388
+Tangier	Taroudant	817128	29641
+Tangier	Settat	415625	15608
+Tangier	Guelmim	978852	38612
+Tangier	Khouribga	390731	17235
+Agadir	Rabat	548178	19839
+Essaouira	Rabat	457512	18047
+Tetouan	Rabat	278508	12270
+Sidi Slimane	Rabat	116916	5679
+Chefchaouen	Rabat	251710	14168
+Kenitra	Rabat	54179	2707
+Ifran	Rabat	207949	9353
+Nador	Rabat	510975	19399
+Taroudant	Rabat	566609	20774
+Settat	Rabat	165106	6741
+Guelmim	Rabat	728334	29745
+Khouribga	Rabat	207100	8219
+Agadir	Essaouira	174995	10541
+Agadir	Tetouan	825430	31247
+Agadir	Sidi Slimane	663838	24656
+Agadir	Chefchaouen	798631	33145
+Agadir	Kenitra	601100	21684
+Agadir	Ifran	754871	28330
+Agadir	Nador	1057897	38376
+Agadir	Taroudant	82747	5236
+Agadir	Settat	392708	14205
+Agadir	Guelmim	201509	12046
+Agadir	Khouribga	510246	18371
+Essaouira	Tetouan	735116	29461
+Essaouira	Sidi Slimane	573524	22870
+Essaouira	Chefchaouen	708318	31359
+Essaouira	Kenitra	510786	19898
+Essaouira	Ifran	664557	26544
+Essaouira	Nador	967583	36590
+Essaouira	Taroudant	303680	13319
+Essaouira	Settat	325891	12970
+Essaouira	Guelmim	374082	22244
+Essaouira	Khouribga	443429	17136
+Sidi Slimane	Tetouan	235808	12647
+Chefchaouen	Tetouan	64918	5206
+Kenitra	Tetouan	233625	10641
+Ifran	Tetouan	427052	18972
+Nador	Tetouan	343900	20103
+Taroudant	Tetouan	844886	32282
+Settat	Tetouan	443382	18249
+Guelmim	Tetouan	1006610	41253
+Khouribga	Tetouan	418489	19876
+Sidi Slimane	Chefchaouen	163609	10157
+Sidi Slimane	Kenitra	65452	4144
+Sidi Slimane	Ifran	129075	8174
+Nador	Sidi Slimane	435710	18197
+Sidi Slimane	Taroudant	683753	25716
+Sidi Slimane	Settat	282250	11682
+Guelmim	Sidi Slimane	845478	34686
+Sidi Slimane	Khouribga	229525	13365
+Chefchaouen	Kenitra	200258	12542
+Chefchaouen	Ifran	254804	16099
+Nador	Chefchaouen	347497	20409
+Chefchaouen	Taroudant	818559	34114
+Chefchaouen	Settat	417056	20080
+Guelmim	Chefchaouen	980284	43084
+Chefchaouen	Khouribga	392162	21707
+Kenitra	Ifran	201846	9318
+Nador	Kenitra	504872	19364
+Kenitra	Taroudant	620485	22724
+Kenitra	Settat	218981	8690
+Guelmim	Kenitra	782209	31694
+Kenitra	Khouribga	194088	10317
+Nador	Ifran	354729	15087
+Taroudant	Ifran	774184	29292
+Settat	Ifran	372680	15259
+Guelmim	Ifran	935908	38263
+Khouribga	Ifran	231818	14220
+Nador	Taroudant	1079562	39805
+Nador	Settat	678059	25771
+Guelmim	Nador	1241287	48775
+Nador	Khouribga	595591	25965
+Settat	Taroudant	410416	15119
+Guelmim	Taroudant	256013	14136
+Taroudant	Khouribga	527953	19284
+Guelmim	Settat	572029	24019
+Settat	Khouribga	90874	5418
+Guelmim	Khouribga	690153	28056

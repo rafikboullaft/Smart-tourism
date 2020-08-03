@@ -23,7 +23,7 @@ STATICFILES_DIRS = (os.path.join(PROJECT_ROOT,'static'),)
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'bh71pt0x+%#q2#%e0nb_rf--w4*evcm)+@z2&+*@u$199+%=zo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -124,3 +124,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+###
+MEDIA_URL = '/media/'
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'listville/media/') 
+# email sending
+DEFAULT_FROM_EMAIL = '***********@gmail.com'
+SERVER_EMAIL = '***********@gmail.com'
+EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = '***********@gmail.com'
+EMAIL_HOST_PASSWORD = '**********'

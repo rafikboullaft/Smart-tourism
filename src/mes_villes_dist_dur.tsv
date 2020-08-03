@@ -1,0 +1,596 @@
+ville1	ville2	distance_m	duree_s
+Beni-Mellal	Casablanca	222593	8836
+Meknes	Casablanca	238107	9349
+Marrakesh	Casablanca	241636	9441
+Casablanca	Larache	258596	9469
+Fes	Casablanca	293990	10972
+Mohammedia	Casablanca	26759	1608
+Casablanca	Midelt	395573	18338
+Casablanca	El Hoceima	598301	27533
+Casablanca	Tangier	337829	12530
+Rabat	Casablanca	86942	3708
+Agadir	Casablanca	465525	17147
+Essaouira	Casablanca	370642	15331
+Tetouan	Casablanca	365183	15161
+Casablanca	Sidi Slimane	203465	8584
+Casablanca	Chefchaouen	338385	17009
+Kenitra	Casablanca	140854	5649
+Casablanca	Ifran	294624	12129
+Nador	Casablanca	597650	22273
+Casablanca	Taroudant	483952	18123
+Casablanca	Settat	82452	3936
+Casablanca	Guelmim	645669	26868
+Khouribga	Casablanca	124538	5466
+Casablanca	Dakhla	1613587	69401
+Laayoune	Casablanca	1082406	47273
+Casablanca	Al Mahbes	895020	38328
+Casablanca	Saidia	633285	24153
+Zagora	Casablanca	591781	31376
+Merzouga	Casablanca	657811	32295
+Ouarzazate	Casablanca	432631	22670
+Awsard	Casablanca	1801062	77813
+Moulay Idriss Zerhoun	Casablanca	263724	11007
+Casablanca	Tarfaya	987213	43060
+Casablanca	Lagouira	1980456	85248
+Casablanca	Oujda	614573	21779
+Meknes	Beni-Mellal	253544	14530
+Marrakesh	Beni-Mellal	191325	10836
+Beni-Mellal	Larache	387619	16528
+Fes	Beni-Mellal	305389	16292
+Mohammedia	Beni-Mellal	244001	9412
+Beni-Mellal	Midelt	220928	12686
+Beni-Mellal	El Hoceima	609699	32853
+Beni-Mellal	Tangier	466852	19589
+Beni-Mellal	Rabat	229055	11577
+Agadir	Beni-Mellal	449940	19832
+Beni-Mellal	Essaouira	382630	18495
+Tetouan	Beni-Mellal	494207	22220
+Beni-Mellal	Sidi Slimane	297600	15483
+Beni-Mellal	Chefchaouen	467408	24068
+Kenitra	Beni-Mellal	269877	12708
+Beni-Mellal	Ifran	230162	14842
+Nador	Beni-Mellal	609048	27593
+Beni-Mellal	Taroudant	468367	20807
+Beni-Mellal	Settat	162373	8951
+Beni-Mellal	Guelmim	630084	29552
+Khouribga	Beni-Mellal	85731	4894
+Beni-Mellal	Dakhla	1598002	72086
+Laayoune	Beni-Mellal	1066821	49957
+Beni-Mellal	Al Mahbes	879435	41012
+Beni-Mellal	Saidia	644684	29472
+Beni-Mellal	Zagora	484370	30255
+Merzouga	Beni-Mellal	483166	26643
+Ouarzazate	Beni-Mellal	325220	21549
+Awsard	Beni-Mellal	1785477	80497
+Moulay Idriss Zerhoun	Beni-Mellal	281697	16415
+Beni-Mellal	Tarfaya	971628	45744
+Beni-Mellal	Lagouira	1964871	87932
+Beni-Mellal	Oujda	625971	27099
+Meknes	Marrakesh	476099	17912
+Meknes	Larache	263172	10189
+Meknes	Fes	64517	3180
+Meknes	Mohammedia	215964	8530
+Meknes	Midelt	188772	11376
+Meknes	El Hoceima	368828	19741
+Meknes	Tangier	342405	13250
+Meknes	Rabat	151171	6340
+Meknes	Agadir	699988	25617
+Meknes	Essaouira	609321	23755
+Meknes	Tetouan	369760	15880
+Meknes	Sidi Slimane	68654	4657
+Meknes	Chefchaouen	194031	12509
+Meknes	Kenitra	144729	6312
+Meknes	Ifran	63259	4100
+Meknes	Nador	368177	14481
+Meknes	Taroudant	718415	26593
+Meknes	Settat	316915	12406
+Meknes	Guelmim	880132	35338
+Meknes	Khouribga	234522	12753
+Meknes	Dakhla	1848050	77871
+Meknes	Laayoune	1316869	55743
+Meknes	Al Mahbes	1129483	46798
+Meknes	Saidia	403812	16361
+Meknes	Zagora	653643	34396
+Meknes	Merzouga	451010	25333
+Meknes	Ouarzazate	667094	31140
+Meknes	Awsard	2035525	86283
+Meknes	Moulay Idriss Zerhoun	30261	2433
+Meknes	Tarfaya	1221676	51530
+Meknes	Lagouira	2214919	93718
+Meknes	Oujda	385100	13988
+Marrakesh	Larache	494845	17856
+Marrakesh	Fes	530239	19358
+Marrakesh	Mohammedia	263008	9994
+Marrakesh	Midelt	412901	22901
+Marrakesh	El Hoceima	834550	35920
+Marrakesh	Tangier	574078	20917
+Marrakesh	Rabat	323191	12094
+Marrakesh	Agadir	258340	10988
+Marrakesh	Essaouira	191030	9652
+Marrakesh	Tetouan	601433	23547
+Marrakesh	Sidi Slimane	439714	16970
+Marrakesh	Chefchaouen	574634	25395
+Marrakesh	Kenitra	377103	14036
+Marrakesh	Ifran	530873	20515
+Marrakesh	Nador	833899	30659
+Marrakesh	Taroudant	276767	11964
+Marrakesh	Settat	168711	6540
+Marrakesh	Guelmim	438484	20709
+Marrakesh	Khouribga	286339	10709
+Marrakesh	Dakhla	1406403	63243
+Marrakesh	Laayoune	875222	41114
+Marrakesh	Al Mahbes	687835	32169
+Marrakesh	Saidia	869534	32539
+Marrakesh	Zagora	352815	22782
+Marrakesh	Merzouga	564114	32558
+Marrakesh	Ouarzazate	193665	14075
+Marrakesh	Awsard	1593878	71654
+Marrakesh	Moulay Idriss Zerhoun	499973	19394
+Marrakesh	Tarfaya	780029	36901
+Marrakesh	Lagouira	1773272	79089
+Marrakesh	Oujda	850822	30166
+Fes	Larache	319723	11858
+Mohammedia	Larache	235737	8559
+Midelt	Larache	445870	20292
+El Hoceima	Larache	342813	19528
+Tangier	Larache	88121	4010
+Rabat	Larache	170943	6368
+Agadir	Larache	719760	25646
+Essaouira	Larache	629094	23783
+Tetouan	Larache	115476	6640
+Sidi Slimane	Larache	129113	6814
+Chefchaouen	Larache	164618	9764
+Kenitra	Larache	126930	4871
+Ifran	Larache	320357	13015
+Nador	Larache	623383	23159
+Taroudant	Larache	738187	26621
+Settat	Larache	336687	12434
+Guelmim	Larache	899904	35366
+Khouribga	Larache	311885	14096
+Dakhla	Larache	1867823	77900
+Laayoune	Larache	1336642	55772
+Al Mahbes	Larache	1149255	46827
+Saidia	Larache	659018	25039
+Zagora	Larache	846016	39875
+Merzouga	Larache	708108	34249
+Ouarzazate	Larache	686867	31168
+Awsard	Larache	2055297	86311
+Moulay Idriss Zerhoun	Larache	170165	9108
+Tarfaya	Larache	1241449	51559
+Lagouira	Larache	2234692	93746
+Oujda	Larache	640305	22666
+Fes	Mohammedia	271852	10026
+Fes	Midelt	212084	11459
+Fes	El Hoceima	253672	16944
+Fes	Tangier	398292	14746
+Fes	Rabat	207058	7835
+Agadir	Fes	755875	27113
+Fes	Essaouira	665209	25250
+Tetouan	Fes	257229	16899
+Fes	Sidi Slimane	113274	6833
+Fes	Chefchaouen	196858	12785
+Fes	Kenitra	200617	7807
+Fes	Ifran	64674	4433
+Nador	Fes	314102	12914
+Fes	Taroudant	774302	28088
+Fes	Settat	372802	13901
+Fes	Guelmim	936019	36833
+Khouribga	Fes	290409	14249
+Fes	Dakhla	1903938	79367
+Fes	Laayoune	1372757	57239
+Fes	Al Mahbes	1185370	48294
+Fes	Saidia	349737	14794
+Fes	Zagora	676955	34478
+Fes	Merzouga	474322	25416
+Ouarzazate	Fes	722982	32635
+Awsard	Fes	2091412	87778
+Fes	Moulay Idriss Zerhoun	65041	5017
+Fes	Tarfaya	1277564	53025
+Fes	Lagouira	2270807	95213
+Fes	Oujda	331024	12420
+Mohammedia	Midelt	396728	18580
+Mohammedia	El Hoceima	574891	26708
+Mohammedia	Tangier	314419	11705
+Mohammedia	Rabat	63532	2883
+Agadir	Mohammedia	489882	17906
+Mohammedia	Essaouira	399215	16043
+Tetouan	Mohammedia	341774	14336
+Mohammedia	Sidi Slimane	180055	7759
+Mohammedia	Chefchaouen	314975	16184
+Mohammedia	Kenitra	117444	4824
+Mohammedia	Ifran	271214	11304
+Nador	Mohammedia	574240	21448
+Mohammedia	Taroudant	508309	18881
+Mohammedia	Settat	106809	4694
+Mohammedia	Guelmim	670026	27626
+Khouribga	Mohammedia	148895	6225
+Mohammedia	Dakhla	1637944	70160
+Mohammedia	Laayoune	1106763	48032
+Mohammedia	Al Mahbes	919377	39087
+Mohammedia	Saidia	609876	23328
+Mohammedia	Zagora	616138	32135
+Mohammedia	Merzouga	658966	32537
+Ouarzazate	Mohammedia	456988	23428
+Awsard	Mohammedia	1825419	78571
+Mohammedia	Moulay Idriss Zerhoun	240314	10182
+Mohammedia	Tarfaya	1011570	43818
+Mohammedia	Lagouira	2004813	86006
+Mohammedia	Oujda	591163	20954
+Midelt	El Hoceima	498410	27178
+Tangier	Midelt	523466	22975
+Rabat	Midelt	332232	16064
+Agadir	Midelt	782295	31218
+Essaouira	Midelt	714985	29882
+Tetouan	Midelt	550821	25605
+Midelt	Sidi Slimane	256830	14949
+Chefchaouen	Midelt	379009	23066
+Kenitra	Midelt	325791	16036
+Midelt	Ifran	135808	7793
+Nador	Midelt	456400	21675
+Taroudant	Midelt	800722	32194
+Midelt	Settat	399223	18007
+Guelmim	Midelt	962439	40939
+Khouribga	Midelt	287795	14358
+Dakhla	Midelt	1930358	83472
+Laayoune	Midelt	1399177	61344
+Al Mahbes	Midelt	1097891	51252
+Saidia	Midelt	497577	23768
+Zagora	Midelt	465255	23171
+Merzouga	Midelt	262622	14109
+Ouarzazate	Midelt	441522	22656
+Awsard	Midelt	2117833	91884
+Moulay Idriss Zerhoun	Midelt	215239	12990
+Tarfaya	Midelt	1303984	57131
+Lagouira	Midelt	2297227	99319
+Oujda	Midelt	478864	21395
+Tangier	El Hoceima	291282	17335
+Rabat	El Hoceima	558694	23566
+Agadir	El Hoceima	1107511	42843
+Essaouira	El Hoceima	1016845	40981
+Tetouan	El Hoceima	234158	13993
+Sidi Slimane	El Hoceima	339470	22050
+Chefchaouen	El Hoceima	236995	14405
+Kenitra	El Hoceima	461195	23413
+Ifran	El Hoceima	402709	19394
+Nador	El Hoceima	126377	7395
+Taroudant	El Hoceima	1125938	43819
+Settat	El Hoceima	724438	29632
+Guelmim	El Hoceima	1287655	52564
+Khouribga	El Hoceima	642045	29979
+Dakhla	El Hoceima	2255573	95097
+Laayoune	El Hoceima	1724392	72969
+Al Mahbes	El Hoceima	1537006	64024
+Saidia	El Hoceima	206697	11744
+Zagora	El Hoceima	901378	44952
+Merzouga	El Hoceima	698745	35890
+Ouarzazate	El Hoceima	877644	44437
+Awsard	El Hoceima	2443048	103509
+Moulay Idriss Zerhoun	El Hoceima	310819	20560
+Tarfaya	El Hoceima	1629199	68756
+Lagouira	El Hoceima	2622442	110944
+Oujda	El Hoceima	259069	14862
+Rabat	Tangier	249881	9360
+Agadir	Tangier	798697	28637
+Essaouira	Tangier	708031	26775
+Tetouan	Tangier	63229	4456
+Tangier	Sidi Slimane	208050	9805
+Chefchaouen	Tangier	112371	7580
+Kenitra	Tangier	205867	7863
+Tangier	Ifran	399294	16007
+Nador	Tangier	401361	23287
+Taroudant	Tangier	817125	29613
+Tangier	Settat	415625	15426
+Guelmim	Tangier	978841	38358
+Khouribga	Tangier	390822	17088
+Tangier	Dakhla	1946760	80891
+Laayoune	Tangier	1415579	58763
+Al Mahbes	Tangier	1228193	49818
+Saidia	Tangier	481681	27636
+Zagora	Tangier	924954	42867
+Merzouga	Tangier	787045	37240
+Ouarzazate	Tangier	765804	34160
+Awsard	Tangier	2134235	89303
+Moulay Idriss Zerhoun	Tangier	249102	12099
+Tangier	Tarfaya	1320386	54550
+Tangier	Lagouira	2313629	96738
+Oujda	Tangier	719243	25658
+Agadir	Rabat	547717	19915
+Rabat	Essaouira	457051	18052
+Tetouan	Rabat	278508	12196
+Rabat	Sidi Slimane	116789	5619
+Rabat	Chefchaouen	251710	14044
+Kenitra	Rabat	54179	2685
+Rabat	Ifran	207949	9164
+Nador	Rabat	510975	19308
+Rabat	Taroudant	566144	20890
+Rabat	Settat	164644	6703
+Rabat	Guelmim	727861	29635
+Khouribga	Rabat	206730	8234
+Rabat	Dakhla	1695780	72169
+Laayoune	Rabat	1164599	50041
+Rabat	Al Mahbes	977212	41096
+Rabat	Saidia	546610	21188
+Rabat	Zagora	673973	34144
+Merzouga	Rabat	595701	30398
+Ouarzazate	Rabat	514824	25437
+Awsard	Rabat	1883254	80580
+Moulay Idriss Zerhoun	Rabat	177049	8043
+Rabat	Tarfaya	1069406	45827
+Rabat	Lagouira	2062649	88015
+Rabat	Oujda	527898	18815
+Agadir	Essaouira	174995	10549
+Agadir	Tetouan	825430	31314
+Agadir	Sidi Slimane	663711	24737
+Agadir	Chefchaouen	798631	33162
+Agadir	Kenitra	601100	21803
+Agadir	Ifran	754871	28282
+Agadir	Nador	1057897	38426
+Agadir	Taroudant	82743	5172
+Agadir	Settat	392708	14307
+Agadir	Guelmim	201498	11782
+Agadir	Khouribga	510337	18476
+Agadir	Dakhla	1169417	54316
+Agadir	Laayoune	638236	32188
+Agadir	Al Mahbes	450850	23242
+Agadir	Saidia	1093532	40306
+Agadir	Zagora	447346	23130
+Agadir	Merzouga	655376	33651
+Agadir	Ouarzazate	357779	18699
+Agadir	Awsard	1356892	62727
+Agadir	Moulay Idriss Zerhoun	723971	27161
+Agadir	Tarfaya	543043	27974
+Agadir	Lagouira	1536286	70162
+Agadir	Oujda	1074819	37933
+Tetouan	Essaouira	735509	29444
+Essaouira	Sidi Slimane	573790	22868
+Essaouira	Chefchaouen	708711	31293
+Kenitra	Essaouira	511180	19933
+Essaouira	Ifran	664950	26412
+Nador	Essaouira	967976	36557
+Essaouira	Taroudant	304069	13458
+Essaouira	Settat	326284	12966
+Essaouira	Guelmim	374071	21845
+Khouribga	Essaouira	443912	17135
+Essaouira	Dakhla	1341989	64379
+Laayoune	Essaouira	810808	42250
+Essaouira	Al Mahbes	623422	33305
+Essaouira	Saidia	1003611	38436
+Zagora	Essaouira	544457	32051
+Merzouga	Essaouira	755757	41826
+Ouarzazate	Essaouira	385308	23344
+Awsard	Essaouira	1529464	72790
+Moulay Idriss Zerhoun	Essaouira	634050	25291
+Essaouira	Tarfaya	715615	38037
+Essaouira	Lagouira	1708858	80225
+Essaouira	Oujda	984899	36063
+Tetouan	Sidi Slimane	235808	12504
+Tetouan	Chefchaouen	64918	5092
+Tetouan	Kenitra	233625	10561
+Tetouan	Ifran	427052	18706
+Tetouan	Nador	343885	20064
+Tetouan	Taroudant	844882	32312
+Tetouan	Settat	443382	18125
+Tetouan	Guelmim	1006599	41057
+Tetouan	Khouribga	418580	19786
+Tetouan	Dakhla	1974518	83590
+Tetouan	Laayoune	1443337	61462
+Tetouan	Al Mahbes	1255950	52517
+Tetouan	Saidia	424205	24413
+Tetouan	Zagora	952711	45565
+Tetouan	Merzouga	814803	39939
+Tetouan	Ouarzazate	793562	36859
+Tetouan	Awsard	2161992	92002
+Tetouan	Moulay Idriss Zerhoun	226919	14375
+Tetouan	Tarfaya	1348144	57249
+Tetouan	Lagouira	2341387	99437
+Tetouan	Oujda	476577	27531
+Chefchaouen	Sidi Slimane	163755	10068
+Kenitra	Sidi Slimane	65771	4026
+Ifran	Sidi Slimane	129077	7949
+Nador	Sidi Slimane	435712	18095
+Taroudant	Sidi Slimane	683751	25748
+Settat	Sidi Slimane	282251	11561
+Guelmim	Sidi Slimane	845468	34492
+Khouribga	Sidi Slimane	257449	13222
+Dakhla	Sidi Slimane	1813387	77026
+Laayoune	Sidi Slimane	1282206	54898
+Al Mahbes	Sidi Slimane	1094819	45953
+Saidia	Sidi Slimane	471348	19975
+Zagora	Sidi Slimane	719461	38244
+Merzouga	Sidi Slimane	516828	29182
+Ouarzazate	Sidi Slimane	632431	30294
+Awsard	Sidi Slimane	2000861	85438
+Moulay Idriss Zerhoun	Sidi Slimane	57544	3619
+Tarfaya	Sidi Slimane	1187013	50685
+Lagouira	Sidi Slimane	2180256	92873
+Oujda	Sidi Slimane	452635	17602
+Kenitra	Chefchaouen	200576	12261
+Chefchaouen	Ifran	254809	15768
+Nador	Chefchaouen	347481	20371
+Chefchaouen	Taroudant	818557	33982
+Chefchaouen	Settat	417057	19795
+Chefchaouen	Guelmim	980274	42727
+Khouribga	Chefchaouen	392255	21457
+Chefchaouen	Dakhla	1948193	85261
+Laayoune	Chefchaouen	1417011	63133
+Al Mahbes	Chefchaouen	1229625	54188
+Saidia	Chefchaouen	427801	24720
+Zagora	Chefchaouen	845194	46064
+Merzouga	Chefchaouen	642561	37002
+Ouarzazate	Chefchaouen	767236	38529
+Awsard	Chefchaouen	2135667	93672
+Moulay Idriss Zerhoun	Chefchaouen	166696	10238
+Chefchaouen	Tarfaya	1321818	58920
+Chefchaouen	Lagouira	2315062	101107
+Oujda	Chefchaouen	516411	24473
+Kenitra	Ifran	201846	9099
+Nador	Kenitra	504872	19243
+Kenitra	Taroudant	620481	22797
+Kenitra	Settat	218981	8610
+Kenitra	Guelmim	782198	31542
+Khouribga	Kenitra	194179	10272
+Kenitra	Dakhla	1750117	74075
+Kenitra	Laayoune	1218936	51947
+Kenitra	Al Mahbes	1031549	43002
+Kenitra	Saidia	540507	21123
+Kenitra	Zagora	728310	36050
+Kenitra	Merzouga	589597	30333
+Ouarzazate	Kenitra	569161	27344
+Awsard	Kenitra	1937591	82487
+Kenitra	Moulay Idriss Zerhoun	122600	7490
+Kenitra	Tarfaya	1123743	47734
+Kenitra	Lagouira	2116986	89922
+Kenitra	Oujda	521795	18750
+Nador	Ifran	354729	14909
+Taroudant	Ifran	774445	29279
+Settat	Ifran	372945	15092
+Guelmim	Ifran	936162	38024
+Khouribga	Ifran	232021	14531
+Dakhla	Ifran	1904081	80557
+Laayoune	Ifran	1372900	58429
+Al Mahbes	Ifran	1185513	49484
+Saidia	Ifran	390364	16789
+Zagora	Ifran	600836	30907
+Merzouga	Ifran	398203	21845
+Ouarzazate	Ifran	577103	30392
+Awsard	Ifran	2091555	88969
+Moulay Idriss Zerhoun	Ifran	90208	5951
+Tarfaya	Ifran	1277707	54216
+Lagouira	Ifran	2270950	96404
+Oujda	Ifran	371652	14416
+Nador	Taroudant	1079559	39754
+Nador	Settat	678059	25567
+Nador	Guelmim	1241276	48499
+Nador	Khouribga	595666	25914
+Nador	Dakhla	2209194	91032
+Nador	Laayoune	1678013	68904
+Nador	Al Mahbes	1490627	59959
+Nador	Saidia	84978	5657
+Nador	Zagora	851248	40890
+Nador	Merzouga	648615	31828
+Nador	Ouarzazate	827515	40375
+Nador	Awsard	2396669	99444
+Nador	Moulay Idriss Zerhoun	397271	16601
+Nador	Tarfaya	1582820	64691
+Nador	Lagouira	2576064	106879
+Nador	Oujda	137350	8775
+Taroudant	Settat	410397	15280
+Taroudant	Guelmim	256000	13871
+Khouribga	Taroudant	528026	19449
+Taroudant	Dakhla	1223919	56405
+Laayoune	Taroudant	692738	34277
+Al Mahbes	Taroudant	505351	25332
+Saidia	Taroudant	1111221	41279
+Zagora	Taroudant	364348	18783
+Merzouga	Taroudant	572378	29304
+Ouarzazate	Taroudant	274781	14351
+Awsard	Taroudant	1411394	64817
+Moulay Idriss Zerhoun	Taroudant	741660	28134
+Taroudant	Tarfaya	597545	30064
+Taroudant	Lagouira	1590788	72252
+Oujda	Taroudant	1092509	38906
+Guelmim	Settat	572018	23913
+Khouribga	Settat	90874	5342
+Dakhla	Settat	1539937	66447
+Laayoune	Settat	1008755	44319
+Al Mahbes	Settat	821369	35374
+Saidia	Settat	710558	27032
+Zagora	Settat	518130	28422
+Merzouga	Settat	660636	32031
+Ouarzazate	Settat	358981	19715
+Awsard	Settat	1727411	74859
+Moulay Idriss Zerhoun	Settat	340997	13887
+Tarfaya	Settat	913563	40106
+Lagouira	Settat	1906806	82294
+Oujda	Settat	691846	24658
+Khouribga	Guelmim	690233	28000
+Guelmim	Dakhla	968467	42655
+Laayoune	Guelmim	437286	20527
+Al Mahbes	Guelmim	263595	11947
+Saidia	Guelmim	1273428	49829
+Zagora	Guelmim	544322	25827
+Merzouga	Guelmim	845721	39806
+Ouarzazate	Guelmim	525354	27215
+Awsard	Guelmim	1155941	51066
+Moulay Idriss Zerhoun	Guelmim	903867	36684
+Guelmim	Tarfaya	342093	16314
+Guelmim	Lagouira	1335336	58501
+Oujda	Guelmim	1254716	47456
+Khouribga	Dakhla	1659380	70701
+Khouribga	Laayoune	1128199	48573
+Khouribga	Al Mahbes	940813	39628
+Khouribga	Saidia	629314	27294
+Khouribga	Zagora	495102	30513
+Khouribga	Merzouga	549354	28365
+Khouribga	Ouarzazate	335953	21806
+Khouribga	Awsard	1846855	79113
+Khouribga	Moulay Idriss Zerhoun	259753	14149
+Khouribga	Tarfaya	1033006	44360
+Khouribga	Lagouira	2026249	86548
+Khouribga	Oujda	610602	24921
+Laayoune	Dakhla	532355	23124
+Al Mahbes	Dakhla	1086438	48117
+Saidia	Dakhla	2241387	93065
+Zagora	Dakhla	1512281	69063
+Merzouga	Dakhla	1813680	83041
+Ouarzazate	Dakhla	1493313	70450
+Awsard	Dakhla	266878	12297
+Moulay Idriss Zerhoun	Dakhla	1871826	79920
+Tarfaya	Dakhla	622219	27200
+Lagouira	Dakhla	446273	19732
+Oujda	Dakhla	2222675	90691
+Laayoune	Al Mahbes	553837	25007
+Laayoune	Saidia	1710147	70206
+Laayoune	Zagora	981041	46204
+Laayoune	Merzouga	1282440	60183
+Ouarzazate	Laayoune	962073	47592
+Awsard	Laayoune	719779	30837
+Laayoune	Moulay Idriss Zerhoun	1340586	57061
+Laayoune	Tarfaya	100988	4764
+Laayoune	Lagouira	899173	38272
+Laayoune	Oujda	1691435	67833
+Saidia	Al Mahbes	1522749	61236
+Zagora	Al Mahbes	637716	29486
+Merzouga	Al Mahbes	939116	43465
+Ouarzazate	Al Mahbes	685450	32883
+Awsard	Al Mahbes	1273926	55682
+Moulay Idriss Zerhoun	Al Mahbes	1153188	48091
+Al Mahbes	Tarfaya	603995	27930
+Al Mahbes	Lagouira	1453320	63117
+Oujda	Al Mahbes	1504037	58863
+Zagora	Saidia	890272	42814
+Merzouga	Saidia	687639	33752
+Ouarzazate	Saidia	866539	42299
+Awsard	Saidia	2433055	101118
+Moulay Idriss Zerhoun	Saidia	433657	18275
+Saidia	Tarfaya	1619206	66365
+Saidia	Lagouira	2612450	108553
+Saidia	Oujda	65204	4198
+Merzouga	Zagora	306414	14685
+Ouarzazate	Zagora	162195	9598
+Awsard	Zagora	1699933	75930
+Moulay Idriss Zerhoun	Zagora	680458	36037
+Zagora	Tarfaya	886084	41177
+Zagora	Lagouira	1879327	83365
+Zagora	Oujda	865481	39825
+Ouarzazate	Merzouga	373502	18789
+Awsard	Merzouga	2001752	89886
+Moulay Idriss Zerhoun	Merzouga	480123	26857
+Merzouga	Tarfaya	1187903	55133
+Merzouga	Lagouira	2181146	97321
+Merzouga	Oujda	665146	30645
+Ouarzazate	Awsard	1680915	78205
+Ouarzazate	Moulay Idriss Zerhoun	690903	32573
+Ouarzazate	Tarfaya	867066	43452
+Ouarzazate	Lagouira	1860309	85640
+Ouarzazate	Oujda	841808	39321
+Awsard	Moulay Idriss Zerhoun	2059597	88533
+Awsard	Tarfaya	809990	35813
+Awsard	Lagouira	610309	27357
+Awsard	Oujda	2410446	99305
+Moulay Idriss Zerhoun	Tarfaya	1246739	53129
+Moulay Idriss Zerhoun	Lagouira	2239983	95317
+Moulay Idriss Zerhoun	Oujda	412972	15890
+Lagouira	Tarfaya	989021	42449
+Oujda	Tarfaya	1596257	63756
+Oujda	Lagouira	2589261	106914

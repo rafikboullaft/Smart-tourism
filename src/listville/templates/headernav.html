@@ -1,0 +1,38 @@
+{% load static %}
+<header id="header-container">
+             <div id="header">
+                 <div class="container">
+                     <div class="left-side">
+                         <div id="logo">
+                             <a href="{% url 'display_villes' %}"><img src="{% static 'images/EM.png' %}" alt="" /></a>
+                         </div>
+                         <div class="mmenu-trigger">
+                             <button class="hamburger hamburger--collapse" type="button">
+                                 <span class="hamburger-box">
+                                 <span class="hamburger-inner"></span>
+                                 </span>
+                             </button>
+                         </div>
+                         <nav id="navigation" class="style-1">
+                             <ul id="responsive">
+                                 <li><a href="{% url 'visites_par_jours' %}">Destination </a>
+                                 </li>
+                                 <li><a href="{% url 'webpage2' %}">Chemin Optimal </a>
+                                 </li>
+                                 <li><a href="{% url 'palce_proche' %}">Trouver </a>
+                                 </li>
+                                 <li><a href="{% url 'contact_us' %}">Contact </a>
+                                 </li>
+
+                             </ul>
+                         </nav>
+                         <div class="clearfix"></div>
+                     </div>
+                     <div class="right-side hidden-lg-down">
+                         <div class="header-widget">
+                             <a href="{% url 'admin:index' %}" class="button border">Ajouter Ville</a>
+                         </div>
+                     </div>
+                 </div>
+             </div>           
+</header>

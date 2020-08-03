@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+ <html lang="zxx">
+{% load static %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+     <meta name="description" content="html 5 template" />
+     <meta name="author" content="" />
+     <title>Contact Us </title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+     <!-- GOOGLE FONTS -->
+     <link href="{% static '../../../fonts.googleapis.com/css_dea33ac.css' %}" rel="stylesheet" />
+     <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
+
+     <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/leaflet-gesture-handling.min.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/leaflet.markercluster.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/leaflet.markercluster.default.css' %}" />
+     <!-- ARCHIVES CSS -->
+     <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/lightcase.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/menu.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+     <link rel="stylesheet" href="{% static 'css/maps.css' %}" />
+     <link rel="stylesheet" id="color" href="{% static 'css/default.css' %}" />
+ </head>
+
+ <body class="inner-pages">
+     <!-- Wrapper -->
+     <div id="wrapper">
+         <!-- START SECTION HEADINGS -->
+        {% include "headernav.html "%}  
+        <!-- Header Container / End -->
+
+         <section class="headings" style="background-image: url('/static/images/m.jpg');background-repeat: no-repeat;background-size: cover;">
+             <div class="text-heading text-center">
+                 <div class="container">
+                     <h1>Contact </h1>
+                     <h2><a href="index.html">Home  </a> &nbsp;/&nbsp; Contact Us </h2>
+                 </div>
+             </div>
+         </section>
+         <!-- END SECTION HEADINGS -->
+
+         <!-- START SECTION CONTACT US -->
+         <section class="contact-us">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-6 col-md-12">
+                         <h3 class="mb-4">NOUS CONTACTER</h3>
+                         <form  method="post" novalidate="" action="{% url 'contact_us' %}">
+
+                            
+                             <div id="success" class="successform">
+                                 <p class="alert alert-success font-weight-bold" role="alert">message envoyer</p>
+                             </div>
+                             <div id="error" class="errorform">
+                                 <p>Something went wrong</p>
+                             </div>
+                             {% csrf_token %}
+                             {{ form.as_p }}
+                             
+                             <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Envoyer </button>
+                         </form>
+                     </div>
+                      <div class="col-lg-6 col-md-12">
+                         <div class="our-lo property-location mb-0">
+                             <h3 class="mb-4">Explore Morocco </h3>
+                             <img src="{% static 'images/bg/kech-maroc.jpg' %}" alt="" />
+                             
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </section>
+         <!-- END SECTION CONTACT US -->
+         <!-- START SECTION TEAM -->
+         <section class="team">
+             <div class="container">
+                 <div class="sec-title">
+                     <h2><span>Notre  </span>équipe </h2>
+                     <p>ENSAH</p>
+                 </div>
+                 <div class="row team-all">
+                     <!--Team Block-->
+                     <div class="team-block col-lg-3 col-md-6 col-xs-12">
+                         <div class="inner-box team-details">
+                             <div class="image team-head">
+                                 <a href="#"><img src="{% static 'images/team/Rafik.jpg' %}" alt="" /></a>
+                             </div>
+                             <div class="lower-box">
+                                 <h3><a href="#">Boullaft Rafik </a></h3>
+                                 <div class="designation">GI2 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--Team Block-->
+                    
+                     <div class="team-block col-lg-3 col-md-6 col-xs-12 pb-none">
+                         <div class="inner-box team-details">
+                             <div class="image team-head">
+                                 <a href="#"><img src="{% static 'images/team/said.jpg' %}" alt="" /></a>
+                             </div>
+                             <div class="lower-box">
+                                 <h3><a href="#">Zakriti Said </a></h3>
+                                 <div class="designation">GI2 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--Team Block-->
+                      <div class="team-block col-lg-3 col-md-6 col-xs-12">
+                         <div class="inner-box team-details">
+                             <div class="image team-head">
+                                 <a href="#"><img src="{% static 'images/team/oualid.jpg' %}" alt="" /></a>
+                             </div>
+                             <div class="lower-box">
+                                 <h3><a href="#">El Boussalmani Oualid </a></h3>
+                                 <div class="designation">GI2 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--Team Block-->
+                     <div class="team-block col-lg-3 col-md-6 col-xs-12 pb-none">
+                         <div class="inner-box team-details">
+                             <div class="image team-head">
+                                 <a href="#"><img src="{% static 'images/team/prof_E.jpg' %}" alt="" /></a>
+                             </div>
+                             <div class="lower-box">
+                                 <h3><a href="#">Ahmed Lahjouji El Idriss</a></h3>
+                                 <div class="designation">Encadrant</div>
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+         </section>
+         <!-- END SECTION TEAM -->
+
+
+         <!-- START FOOTER -->
+         {% include "footer.html" %}
+         <!-- END FOOTER -->
+
+         <!-- ARCHIVES JS -->
+         {% include 'jslinks.html' %}
+         
+
+     </div>
+     <!-- Wrapper / End -->
+ </body>
+
+ </html>
+ 

@@ -15,14 +15,25 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
 from listville.views import (
-    webpage1,webpage2
+    webpage1,webpage2,display_destination_villes,contact_us,visites_par_jours,palce_proche
 )
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('', home_screen_view),
-    path('',webpage1,name="webpage1"),
+    path('home',webpage1,name="webpage1"),
     path('selectioneelesville',webpage2,name="webpage2"),
+    path('',display_destination_villes,name="display_villes"),
+    path('contact/', contact_us, name="contact_us"),
+    path('destination/', visites_par_jours, name="visites_par_jours"),
+    path('palce_proche/', palce_proche, name="palce_proche")
 ]
 urlpatterns += staticfiles_urlpatterns()
+
+urlpatterns += static(settings.MEDIA_URL,
+                              document_root=settings.MEDIA_ROOT)
+#urlpatterns += i18n_patterns('fr',path('admin/', admin.site.urls),)

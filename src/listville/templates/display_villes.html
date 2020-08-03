@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css  %}
+<style type="text/css">
+       select {
+    font-family: 'Times New Roman';
+    width: 100%;
+}
+
+select option {
+    color: #00719b;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'stenciletta-solid', sans-serif;
+}
+     </style>
+{% endblock %}
+{% block content %}
+         <!-- START SECTION HEADINGS -->
+         <div class="clearfix"></div>
+         <!-- Header Container / End -->
+
+         <!-- STAR HEADER IMAGE -->
+         <section class="header-image d-flex align-items-center parallax-search8 overlay" id="slider">
+             <div class="container">
+                 <div class="row d-flex align-items-center bg8">
+                     <div class="col-lg-6 pr-5 ilust">
+                         <div class="left wow fadeInLeft">
+                             <img src="{% static 'images/bg/slider1.png' %}" alt="" />
+                         </div>
+                     </div>
+                     <div class="col-lg-6 wow fadeInRight">
+                        <h2 class="pl-3">Explorer le Maroc ! </h2>
+                        <p class="pl-3">les plus belles villes du Maroc pour toi </p>
+                         <!-- Search Form -->
+                         <div class="trip-search">
+                             <form  method="post" action="{% url 'webpage2' %}">
+                                 {% csrf_token %}
+                                 {{ form.countries }}
+                                 <br>
+                                 <hr>
+                                 <div class="form-group button">
+                                     <button type="submit" class="btn">rechercher </button>
+                                 </div>
+                                 <!--/ End Form Button -->
+                             </form>
+                         </div>
+                         <!--/ End Search Form -->
+                     </div>
+                 </div>
+             </div>
+         </section>
+         <!-- END HEADER IMAGE -->
+
+         <!-- START SECTION TOP LOCATION -->
+         <section class="top-location py-0">
+             <h4>TOP PLACES </h4>
+             <div class="owl-carousel owl-theme" id="tp-carousel">
+              {% for ville in display_villes %}
+                 <div class="item">
+                     <div class="tp-caption">
+                         <h6>{{ville.name }}</h6>
+                         <strong>{{ville.typeV}} </strong>
+                         <div class="homes-price top p-0">
+                             <ul class="starts text-left mb-0">
+                                 <li class="mb-0"><i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="mb-0"><i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="mb-0"><i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="mb-0"><i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="mb-0"><i class="fa fa-star"></i>
+                                 </li>
+                                 <li class="ml-1">( 123 Reviews ) </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <img src="{{ ville.photo.url }}" alt="" style="width: 336px;height: 190px" />
+                 </div>
+            {% endfor %}
+
+             </div>
+         </section>
+         <!-- END SECTION TOP LOCATION -->
+         <section class="feature-cities-1">
+             <div class="container">
+                 <div class="sec-title">
+                     <h2><span>Top  </span>Ville </h2>
+                     <p>destination populaire au maroc</p>
+                 </div>
+                 <div class="row">
+                     <div class="col-md-12">
+                     </div>
+                     {% for ville in display_villes %}
+                     <div class="col-lg-4 col-md-6">
+                         <!-- Image Box -->
+                         <a href="#" class="img-box hover-effect">
+                             <img src="{{ ville.photo.url }}" class="img-responsive" alt="" />
+                             <div class="overlay"></div>
+                             <!-- Badge -->
+                             <div class="listing-badges">
+                                 <span class="featured">{{ville.typeV}} </span>
+                             </div>
+                             <div class="img-box-content visible">
+                                 <h4>{{ ville.name }}  </h4>
+                                 <span>{{ ville.description|slice:":90" }}</span>
+                             </div>
+                         </a>
+                     </div>
+                      {% endfor %}
+                         
+                 </div>
+             </div>
+         </section>
+         <!-- END SECTION FEATURE CITIES -->
+
+         <!-- START FOOTER -->
+         {% include 'footer.html' %}
+
+     {% endblock %}

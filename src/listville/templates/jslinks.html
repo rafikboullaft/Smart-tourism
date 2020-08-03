@@ -1,0 +1,27 @@
+{% load static %}
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/smooth-scroll.min.js' %}"></script>
+<script src="{% static 'js/lightcase.js' %}"></script>
+<script src="{% static 'js/owl.carousel.js' %}"></script>
+<script src="{% static 'revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+<script src="{% static 'revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+<script>
+$('.fav-job').on('click', function() {
+$(this).toggleClass('active');
+            });
+
+</script>
+<script>
+$('#reservation-date').dateDropper();
+ </script>  <script>
+this.$('#reservation-time').timeDropper({
+    setCurrentTime: false,
+    meridians: true,
+    primaryColor: "#e8212a",
+    borderColor: "#e8212a",
+    minutesInterval: '15'    
+ });
+</script>
+<script src="{% static 'js/script.js' %}"></script>
+

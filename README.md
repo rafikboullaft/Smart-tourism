@@ -1,7 +1,6 @@
 # tspGA-python---js---django
-## liens important
-[Rapport PFA](https://drive.google.com/file/d/11wkcN52LBK2ZU-qockS6VAsAl-cD2a4L/view?usp=sharing)  
-[demo youtube](https://www.youtube.com/watch?v=5tOYJYAYHvk&t=223s "Présentation Vidéo du PFA")
+## liens important  
+[demo youtube](https://youtu.be/gnrnRZ5FJ5s "Présentation Vidéo du PFA")
 ## Description de l’application
 ### Page d'accueil d’application
 ![image29](https://user-images.githubusercontent.com/48206918/102724384-8501f300-430f-11eb-815c-c752dfe86fb2.png)
